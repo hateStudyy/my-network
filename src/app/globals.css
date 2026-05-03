@@ -1,0 +1,57 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+html, body {
+  background: #0a0e14;
+  color: #e6edf6;
+  font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+}
+
+*::-webkit-scrollbar { width: 10px; height: 10px; }
+*::-webkit-scrollbar-thumb { background: #1f2a3a; border-radius: 6px; }
+*::-webkit-scrollbar-track { background: transparent; }
+
+.glow {
+  text-shadow: 0 0 12px rgba(0, 255, 209, 0.4);
+}
+
+.card {
+  background: #0f1520;
+  border: 1px solid #1f2a3a;
+  border-radius: 12px;
+}
+
+.chip {
+  display: inline-flex;
+  align-items: center;
+  padding: 2px 8px;
+  border-radius: 999px;
+  font-size: 11px;
+  background: #1a2536;
+  color: #9fb3cc;
+  border: 1px solid #243349;
+}
+
+/* markdown 文档样式 */
+.prose-doc h1 { font-size: 2rem; font-weight: 700; margin: 0 0 1rem; color: #00ffd1; }
+.prose-doc h2 { font-size: 1.4rem; font-weight: 600; margin: 2rem 0 0.75rem; color: #fff; border-bottom: 1px solid #1f2a3a; padding-bottom: 0.5rem; }
+.prose-doc h3 { font-size: 1.1rem; font-weight: 600; margin: 1.5rem 0 0.5rem; color: #ff5dcd; }
+.prose-doc p { margin: 0.75rem 0; line-height: 1.75; color: #c8d3e0; }
+.prose-doc ul, .prose-doc ol { margin: 0.75rem 0 0.75rem 1.5rem; line-height: 1.75; color: #c8d3e0; }
+.prose-doc li { margin: 0.25rem 0; }
+.prose-doc ul li { list-style: disc; }
+.prose-doc ol li { list-style: decimal; }
+.prose-doc code { background: #1a2536; padding: 1px 6px; border-radius: 4px; font-size: 0.9em; color: #00ffd1; font-family: ui-monospace, monospace; }
+.prose-doc pre { background: #0a0e14; border: 1px solid #1f2a3a; padding: 1rem; border-radius: 8px; overflow-x: auto; margin: 1rem 0; }
+.prose-doc pre code { background: transparent; padding: 0; color: #c8d3e0; font-size: 0.85rem; }
+.prose-doc table { margin: 1rem 0; border-collapse: collapse; width: 100%; font-size: 0.9rem; }
+.prose-doc th, .prose-doc td { border: 1px solid #1f2a3a; padding: 0.5rem 0.75rem; text-align: left; }
+.prose-doc th { background: #0f1520; color: #00ffd1; font-weight: 600; }
+.prose-doc strong { color: #fff; }
+.prose-doc a { color: #00ffd1; text-decoration: underline; text-underline-offset: 3px; }
+.prose-doc blockquote { border-left: 3px solid #ff5dcd; padding-left: 1rem; color: #9fb3cc; margin: 1rem 0; font-style: italic; }
