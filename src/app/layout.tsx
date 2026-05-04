@@ -13,6 +13,7 @@ const NAV = [
   { href: "/journey", label: "网络包之旅" },
   { href: "/sniff", label: "抓包" },
   { href: "/proxy", label: "代理与翻墙" },
+  { href: "/clients", label: "客户端 / 自建" },
   { href: "/docs", label: "架构文档" },
 ];
 

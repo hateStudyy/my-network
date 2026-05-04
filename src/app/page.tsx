@@ -26,10 +26,16 @@ const MODULES = [
     badge: "04",
   },
   {
+    href: "/clients",
+    title: "客户端 / 自建翻墙",
+    desc: "Shadowrocket / Clash Verge Rev / v2rayN 的架构区别；订阅链接的秘密；从买 VPS 到 VLESS+Reality 自建一条龙。",
+    badge: "05",
+  },
+  {
     href: "/docs",
     title: "架构文档",
     desc: "项目架构、技术选型、各模块实现原理。",
-    badge: "05",
+    badge: "06",
   },
 ];
 
